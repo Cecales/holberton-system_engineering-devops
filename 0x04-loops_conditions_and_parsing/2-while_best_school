@@ -5,5 +5,5 @@ cont=0
 while [ "$cont" -lt 10 ];
 do
 	echo "Best School"
-	let cont=cont+1
+	(( cont = cont + 1 ))
 done
