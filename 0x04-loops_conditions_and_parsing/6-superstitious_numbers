@@ -1,4 +1,25 @@
 #!/usr/bin/env bash
-#coment
+#This script print "Best school" 17 times, and prints other coments when numbers 4, 9 and 17 appears
 
-
+cont=1
+while [ "$cont" -le 20 ] 
+do
+	case $cont in
+		4)
+		       echo "$cont"
+		       echo "bad luck from China"
+		       ;;
+		9)
+			echo "$cont" 
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "$cont"
+			echo "bad luck from Italy"
+			;;
+		*)
+			echo "$cont"
+			;;
+	esac
+	let cont=cont+1
+done

@@ -1,4 +1,14 @@
 #!/usr/bin/env bash
-#coment
+#This script print "Best school" 9 times, and prints "hi" when number 9 appears
 
-
+cont=0
+while [ "$cont" -le 10 ] 
+do
+	if [ "$cont" = 9 ] 
+	then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	let cont=cont+1
+done

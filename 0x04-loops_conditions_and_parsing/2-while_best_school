@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
-#coment
+# This script print "Best School" 10 times
 
-
+cont=0
+while ["$cont" -lt "10"];
+do
+	echo "Best School"
+	let cont=cont+1
+done

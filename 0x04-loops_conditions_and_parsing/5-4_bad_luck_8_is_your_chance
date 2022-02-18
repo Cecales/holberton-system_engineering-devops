@@ -1,4 +1,18 @@
 #!/usr/bin/env bash
-#coment
+#This script print "Best school" 8 times, and prints "bad luck" when number 4 appears
+#and "good luck" when number 8 appears
 
-
+cont=0
+while [ "$cont" -le 10 ] 
+do
+	if [ "$cont" = 4 ] 
+	then
+		echo "bad luck"
+	elif [ "$cont" = 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	let cont=cont+1
+done
