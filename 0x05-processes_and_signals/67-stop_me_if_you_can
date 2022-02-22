@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script that stops 7-highlander copying the method used in 6-stop_me_if_you_can
+
+pkill -f 7-highlander
