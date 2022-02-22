@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 # This script displays if the file "school" exist or not, is empty or not
 
-if [ -e school ]; then
+file="school"
+
+if [ -e $file ]; then
 	echo "school file exists"
-	if [ -s school ]; then
+	if [ -s $file ]; then
 		echo "school file is empty"
 	else
 		echo "school file is not empty"
 	fi
-	if [ -f school ]; then
+	if [ -f $file ]; then
 		echo "school file is a regular file"
 	fi
 else
