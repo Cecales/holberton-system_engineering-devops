@@ -2,8 +2,9 @@
 
 ## Background Context
 
-![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/6/6a0a8024f2b1c47a9d1e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220419%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220419T173252Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ac69ed0fc16d7e246865fbbd09e1e3e9bd728d6df93172bb14b52ddc29f80fe2)
-
+<iframe width="600" height = "420"
+src="https://www.youtube.com/watch?v=ogYLFyp68cI">
+</iframe>
 
 When I was working for SlideShare, I worked on an auto-remediation tool called Skynet that monitored, scaled and fixed Cloud infrastructure. I was using a parallel job-execution system called MCollective that allowed me to execute commands to one or multiple servers at the same time. I could apply an action to a selected set of servers by applying a filter such as the server’s hostname or any other metadata we had (server type, server environment…). At some point, a bug was present in my code that sent nil to the filter method.
 
@@ -19,8 +20,6 @@ Thanks to Puppet, we were able to restore our infrastructure to normal operation
 Obviously writing Puppet code for your infrastructure requires an investment of time and energy, but in the long term, it is for sure a must-have.
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/292/4i8il3B.gif)
-
-That was me ^_^‘: https://twitter.com/devopsreact/status/836971570136375296
 
 ## Resources
 
