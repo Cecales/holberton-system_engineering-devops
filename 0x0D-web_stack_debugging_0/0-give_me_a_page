@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# File to start apache inside docker container and fix curl response error
+
+service apache2 start
