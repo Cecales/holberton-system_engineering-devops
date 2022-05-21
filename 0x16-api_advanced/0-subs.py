@@ -13,6 +13,6 @@ def number_of_subscribers(subreddit):
                        .format(subreddit),
                        headers={'User-Agent': 'Cecales'},
                        allow_redirects=False)
-    if req.status_code == 200:
-        return req.json().get('data').get('subscribers')
-    return 0
+    if req.status_code >= 300:
+        return 0
+    return req.json().get('data').get('subscribers')
