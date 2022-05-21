@@ -9,7 +9,7 @@ import requests
 
 def number_of_subscribers(subreddit):
     """number of subscribers subreddit"""
-    req = requests.get('https://www.reddit.com/r/{}/about/json'
+    req = requests.get('https://www.reddit.com/r/{}/about.json'
                        .format(subreddit),
                        headers={'User-Agent': 'Cecales'},
                        allow_redirects=False)
