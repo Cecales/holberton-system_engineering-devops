@@ -11,7 +11,7 @@ def number_of_subscribers(subreddit):
     """number of subscribers subreddit"""
     req = requests.get('https://www.reddit.com/requests/{}/about/json'
                        .format(subreddit),
-                       headers = {'User-Agent': 'Cecales'},
+                       headers={'User-Agent': 'Cecales'},
                        allow_redirects=False)
     if req.status_code == 200:
         return req.json().get('data').get('subscribers')
